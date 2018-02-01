@@ -3,8 +3,8 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
-import StatelessReactButton from './../StatelessReactButton';
-import StatefullReactButton from './../StatefullReactButton';
+import StatelessReactButton from '../../packages/elements/StatelessButton/StatelessReactButton';
+import StatefullReactButton from '../../packages/elements/StatefulButton/StatefullReactButton';
 
 import { Button, Welcome } from '@storybook/react/demo';
 
