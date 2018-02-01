@@ -21,3 +21,6 @@ yarn-debug.log*
 yarn-error.log*
 
 .idea
+lerna-debug.log
+packages/**/dist/
+packages/**/node_modules/
