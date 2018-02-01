@@ -1,9 +1,11 @@
 {
   "name": "statelessbutton",
-  "version": "0.0.1",
-  "main": "StatelessReactButton.js",
+  "version": "0.0.5",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c ../../../rollup.config.js"
   },
   "author": "",
   "license": "ISC",

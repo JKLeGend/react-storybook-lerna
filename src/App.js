@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import StatelessReactButton from '../packages/elements/StatelessButton/StatelessReactButton';
-import StatefullReactButton from '../packages/elements/StatefulButton/StatefullReactButton';
+import StatelessReactButton from 'statefulbutton';
+import StatefullReactButton from 'statelessbutton';
 import logo from './logo.svg';
 import './App.css';
 
